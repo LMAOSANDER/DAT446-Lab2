@@ -25,7 +25,6 @@ def matmul(M1, M2):
     n1, m1 = len(M1), len(M1[0])
     n2, m2 = len(M2), len(M2[0])
     M2 = transpose(M2)
-
     Mm = []
     
     def vecmul(v1, v2):
